@@ -1,6 +1,6 @@
 provider "azurerm" {
     version = 1.38
-    }
+}
     
 resource "azurerm_storage_account" "lab" {
   name                     = "adrstorage1"
